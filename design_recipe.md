@@ -105,3 +105,22 @@ class Coach:
         #   Calls student.add_submission(submission) on every student the coach manages. (Delegation)
         pass
 ```
+
+## Bevahiours
+
+### Student
+
+#### Init
+
+- Sets the name property 
+- Initializes submissions to an empty list
+- Raises TypeError if name not str
+
+### add_submission
+
+- Adds the submission to the submissions list
+- Raises a TypeError if submission not str
+
+### count_submissions
+
+- Returns len of .submissions
