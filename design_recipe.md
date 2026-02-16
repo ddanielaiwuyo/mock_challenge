@@ -124,3 +124,40 @@ class Coach:
 ### count_submissions
 
 - Returns len of .submissions
+
+
+### Coach
+
+#### Init
+
+- Sets the name property 
+- Initializes submissions to an list of Student
+- Raises TypeError if name not instance of Student
+
+
+
+### add_student
+
+- has to be instance of student
+- raises typerror if not instance of Student
+- appends it to students list
+
+
+### count_submissions
+
+- call count_submission method of all student objects
+- get the total of all their submission counts
+
+
+### print_student_names
+
+- Expecting formatted students as 
+  'Daniel, Sahkira'
+
+
+
+### upload_submission_for_students
+    - takes a submition arg of type string
+    - goes through all students and calls .add_submission
+
+    - type-checking against arg, TypeError
